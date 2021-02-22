@@ -1,70 +1,54 @@
 ###################
-What is CodeIgniter
+Korroboree Moonshot Conversation
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Let’s explore how our everyday habits act as a mechanism for unlocking our inner potential right from our childhood. 
+From picking up good ones to giving up on an un-purposeful lot, habits have made us what we are today.
 
 *******************
-Release Information
+Futuristic
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Prepare your children to strive for being the best throughout their life.
 
 **************************
-Changelog and New Features
+Limitless Potential
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Discover how inner potential empowers us to unleash our best selves.
 
 *******************
-Server Requirements
+A Better You
 *******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Enable your child'd all-rounded emotional growth.
 
 ************
-Installation
+Get Ready To Bring Out The Best In You
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Participate, Learn & Mentor
 
 *******
-License
+Participate
 *******
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Take part in our events where you get to hear from leading educationalists, 
+entrepreneurs and authors who share their experiences and knowledge and help 
+you bring out the best version of yourself.
 
 *********
-Resources
+Learn
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+Enroll in our courses that offer great learning opportunities for children, parents, teachers and all primary caregivers. 
+Our courses don’t just tell you what to do to become the best version of yourself. 
+We help you map your way towards achieving a dynamic mindset where we defy society’s preset definitions of success and 
+lead a life that defines our sense of success, abundance and happiness.
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
-Acknowledgement
+Mentor
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Get Ready To Bring Out The Best In You. Embark on the journey of unlocking your best version by discovering and embracing your infinite inner potential.
