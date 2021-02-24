@@ -4,11 +4,12 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Cuba admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-      <meta name="keywords" content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
-      <meta name="author" content="pixelstrap">
-      <link rel="icon" href="<?php base_url(); ?>assets/images/favicon.png" type="image/x-icon">
-      <link rel="shortcut icon" href="<?php base_url(); ?>assets/images/favicon.png" type="image/x-icon">
+      <meta name="description" content="Let’s explore how our everyday habits act as a mechanism for unlocking our inner potential right from our childhood. From picking up good ones to giving up on an un-purposeful lot, habits have made us what we are today.">
+      <meta name="keywords" content="Let’s explore how our everyday habits act as a mechanism for unlocking our inner potential right from our childhood. From picking up good ones to giving up on an un-purposeful lot, habits have made us what we are today.">
+      <meta name="author" content="5TH Dimension Technologies">
+	  <meta name="msapplication-TileImage" content="<?php base_url(); ?>assets/images/logo/logo2.png" /> 
+      <link rel="icon" href="<?php base_url(); ?>assets/images/logo/logo2.png" type="image/x-icon">
+      <link rel="shortcut icon" href="<?php base_url(); ?>assets/images/logo/logo2.png" type="image/x-icon">
       <title>Korroboree Admin Panel</title>
       <!-- Google font-->
       <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
@@ -140,13 +141,13 @@
                         </div>
                         <ul class="profile-dropdown onhover-show-div">
                            <li>
-							   <a href="#">
+							   <a href="<?php base_url(); ?>account">
 								   <i data-feather="user"></i>
 								   <span>Account </span>
 							   </a>
 						   </li>
                            <li>
-							   <a href="#">
+							   <a href="<?php base_url(); ?>settings">
 								   <i data-feather="settings"></i>
 								   <span>Settings</span>
 							   </a>

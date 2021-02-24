@@ -173,13 +173,17 @@
                                  </div>
                                  <hr>
                                  <div class="m-t-15">
-                                    <button class="btn btn-primary m-r-10" type="button" title=""> 
-										<i class="fas fa-edit mr-1"></i>Update / Edit
-									</button>
-                                    <button class="btn btn-warning m-r-10" type="button" title="" style="color: #131313">
-										<i class="fas fa-exclamation-triangle mr-1"></i>Report Issues
-									</button>
-									<a class="btn btn-secondary" href="#"> <i class="fas fa-tv mr-1"></i>Push Live</a>
+                                    <a href="#">
+										<button class="btn btn-primary m-r-10" type="button" title=""> 
+											<i class="fas fa-edit mr-1"></i>Update / Edit
+										</button>
+									</a>
+                                    <a href="#">
+										<button class="btn btn-warning m-r-10" type="button" title="" style="color: #131313">
+											<i class="fas fa-exclamation-triangle mr-1"></i>Report Issues
+										</button>
+									</a>
+									<a class="btn btn-secondary" href="#"> <i class="fas fa-tv mr-1"></i>Tracker</a> 
                                  </div>
                               </div>
                            </div>

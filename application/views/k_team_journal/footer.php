@@ -3,7 +3,7 @@
                <div class="container-fluid">
                   <div class="row">
                      <div class="col-md-12 footer-copyright text-center">
-                        <p class="mb-0">Copyright <span id="year"></span> © Korroboree Moonshot Conversation  </p>
+                        <p class="mb-0">Copyright © <span id="year"></span> Korroboree Moonshot Conversation  </p>
                      </div>
                   </div>
                </div>

@@ -55,6 +55,9 @@ $route['selection'] = 'home/selection';
 
 /* Korroboree Team Journal Dashboard*/
 
+$route['account'] = 'k_team_journal/admin/account';
+$route['settings'] = 'k_team_journal/admin/settings';
+
 $route['kteam'] = 'k_team_journal/kteam';
 $route['dashboard'] = 'k_team_journal/kteam/dashboard';
 $route['kteam_file_manager'] = 'k_team_journal/kteam/kteam_file_manager';

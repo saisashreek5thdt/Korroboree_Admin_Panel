@@ -51,7 +51,7 @@
 									<th>Topics</th>
 									<th>Editor</th>
 									<th>Tracking</th>
-									<th>Push Live</th>  
+									<th>Track</th>  
 								  </tr>
 								</thead>
 								<tbody>
@@ -72,7 +72,7 @@
 										</div>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Push</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker">Track</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -92,7 +92,7 @@
 										</div>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Push</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker">Track</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -112,7 +112,7 @@
 										</div>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Push</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker">Track</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -132,7 +132,7 @@
 										</div>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Push</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker">Track</a>
 									</td>
 								  </tr>	
 								</tbody>
