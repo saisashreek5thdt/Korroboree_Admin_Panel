@@ -19,7 +19,7 @@
                   	<p>Please Select Your Journal Type</p>
 			    </div>  
 				<div class="form-group mb-1 mr-0">
-					<a href="#" class="m-t-15">
+					<a href="<?php base_url(); ?>dashboard_five" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
 							<i class="mr-1" data-feather="layers"></i>&nbsp;&nbsp;&nbsp; Journal
 						</button>
@@ -39,6 +39,13 @@
 						</button>
 					</a>
 				</div>
+				<div class="form-group mb-1 mr-0">
+					<a href="#" class="m-t-15">
+						<button class="btn btn-primary btn-block m-r-10" type="button">
+							<i class="mr-1" data-feather="film"></i>&nbsp;&nbsp;&nbsp; Korroboree Team Video Journal
+						</button>
+					</a>
+				</div>  
 				<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>home" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">

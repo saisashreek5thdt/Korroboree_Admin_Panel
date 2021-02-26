@@ -78,5 +78,19 @@ $route['topic_edit'] = 'k_team_journal/topic/topic_edit';
 $route['topic_view'] = 'k_team_journal/topic/topic_view';
 $route['topic_tracker'] = 'k_team_journal/topic/topic_tracker';
 
+
+/* 5THDT Team Journal Dashboard*/
+$route['dashboard_five'] = 'journal_5th/five_team/dashboard_five';
+$route['account_five'] = 'journal_5th/five_team/account_five';
+$route['settings_five'] = 'journal_5th/five_team/settings_five';
+
+$route['project'] = 'journal_5th/project';
+$route['kanban'] = 'journal_5th/project/kanban';
+
+/* Episode Pages*/
+$route['episode_list_five'] = 'journal_5th/episode/episode_list_five';
+
+/* 5THDT Team Video Journal Dashboard*/
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

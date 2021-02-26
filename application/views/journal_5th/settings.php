@@ -3,12 +3,12 @@
                   <div class="page-title">
                      <div class="row">
                         <div class="col-6">
-                           <h3>Korroboree Admin Account</h3>
+                           <h3>5TH Dimension Admin Account</h3>
                         </div>
                         <div class="col-6">
                            <ol class="breadcrumb">
                               <li class="breadcrumb-item">
-								  <a href="<?php base_url(); ?>home">
+								  <a href="<?php base_url(); ?>dashboard">
 									  <i data-feather="home"></i>
 								  </a>
 							  </li> 
