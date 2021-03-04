@@ -63,6 +63,9 @@ $route['dashboard'] = 'k_team_journal/kteam/dashboard';
 $route['kteam_file_manager'] = 'k_team_journal/kteam/kteam_file_manager';
 $route['kteam_library'] = 'k_team_journal/kteam/kteam_library';
 $route['kteam_userdata'] = 'k_team_journal/kteam/kteam_userdata';
+$route['userdata_view'] = 'k_team_journal/kteam/userdata_view';
+$route['userdata_topic_view'] = 'k_team_journal/kteam/userdata_topic_view';
+
 /* Episode Pages*/
 $route['project_list'] = 'k_team_journal/kteam/project_list';
 $route['episode_list'] = 'k_team_journal/episode/episode_list';

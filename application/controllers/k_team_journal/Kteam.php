@@ -38,4 +38,18 @@ class Kteam extends CI_Controller {
 		$this->load->view('k_team_journal/footer');
 	}
 	
+	public function userdata_view()
+	{
+		$this->load->view('k_team_journal/header');
+		$this->load->view('k_team_journal/userdata_view');
+		$this->load->view('k_team_journal/footer');
+	}
+	
+	public function userdata_topic_view()
+	{
+		$this->load->view('k_team_journal/header');
+		$this->load->view('k_team_journal/userdata_topic_view');
+		$this->load->view('k_team_journal/footer');
+	}
+	
 }

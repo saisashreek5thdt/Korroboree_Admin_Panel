@@ -44,6 +44,7 @@
       <script src="<?php base_url(); ?>assets/js/owlcarousel/owl.carousel.js"></script>
 	  <script src="<?php base_url(); ?>assets/js/ecommerce.js"></script> 
       <script src="<?php base_url(); ?>assets/js/tooltip-init.js"></script>
+	  <script src="<?php base_url(); ?>assets/js/product-tab.js"></script>
       <!-- Plugins JS Ends-->
       <!-- Theme js-->
       <script src="<?php base_url(); ?>assets/js/script.js"></script>
