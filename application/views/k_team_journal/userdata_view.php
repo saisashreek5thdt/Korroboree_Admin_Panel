@@ -10,7 +10,9 @@
                               <li class="breadcrumb-item">
 								  <a href="<?php base_url(); ?>dashboard"><i data-feather="home"></i></a>
 							  </li>
-                              <li class="breadcrumb-item">Journal</li>
+                              <li class="breadcrumb-item">
+								  <a href="<?php base_url(); ?>kteam_userdata">Journal</a>
+							  </li>
                               <li class="breadcrumb-item active"> Journal One View</li>
                            </ol>
                         </div>

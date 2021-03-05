@@ -12,7 +12,9 @@
 									  <i data-feather="home"></i>
 								  </a>
 							  </li>
-                              <li class="breadcrumb-item"> Topic View</li>
+                              <li class="breadcrumb-item"> 
+								  <a href="<?php base_url(); ?>userdata_view">Topic View</a>
+							  </li>
                               <li class="breadcrumb-item active">Topic Name</li>
                            </ol>
                         </div>
@@ -93,6 +95,39 @@
                                     </div>
                                  </div>
                               </div>
+							  <div class="col-xl-12">
+                                 <div class="card">
+                                    <div class="card-header">
+                                       <h5 class="mb-0">
+                                          <button class="btn btn-link pl-0" data-toggle="collapse" data-target="#collapseicon3" aria-expanded="true" aria-controls="collapseicon2">Ratings</button>
+                                       </h5>
+                                    </div>
+                                    <div class="collapse show" id="collapseicon2" data-parent="#accordion" aria-labelledby="collapseicon3">
+                                       <div class="card-body animate-chk">
+                                          <label class="d-block" for="chk-ani11">
+											  <input class="checkbox_animated" id="chk-ani16" type="checkbox">
+											  1 Star
+                                          </label>
+                                          <label class="d-block" for="chk-ani12">
+											  <input class="checkbox_animated" id="chk-ani17" type="checkbox">
+											  2 Stars
+                                          </label>
+                                          <label class="d-block" for="chk-ani13">
+											  <input class="checkbox_animated" id="chk-ani18" type="checkbox">
+											  3 Stars
+                                          </label>
+                                          <label class="d-block" for="chk-ani14">
+											  <input class="checkbox_animated" id="chk-ani19" type="checkbox">
+											  4 Stars
+                                          </label>
+                                          <label class="d-block mb-0" for="chk-ani15">
+											  <input class="checkbox_animated" id="chk-ani20" type="checkbox">
+											  5 Stars
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div> 
                            </div>
                         </div>
                      </div>

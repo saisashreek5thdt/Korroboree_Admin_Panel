@@ -3,7 +3,7 @@
                   <div class="page-title">
                      <div class="row">
                         <div class="col-6">
-                           <h3>Product</h3>
+                           <h3>List of Journal's</h3>
                         </div>
                         <div class="col-6">
                            <ol class="breadcrumb">
@@ -30,13 +30,9 @@
                                        <div class="product-hover">
                                           <ul>
                                              <li>
-                                                <button class="btn" type="button"><i class="icon-shopping-cart"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class="icon-eye"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button"><i class="icofont icofont-law-alt-2"></i></button>
+                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+													<i class="icon-eye"></i>
+												</button>
                                              </li>
                                           </ul>
                                        </div>
@@ -78,10 +74,24 @@
                                        </div>
                                     </div>
                                     <div class="product-details">
-                                       <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                       <div class="rating">
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+									   </div>
                                        <h4>Journal Name</h4>
                                        <p>Foundation Session</p>
-                                       <div class="product-price">Korroboree Team
+                                       <div class="product-price">Korroboree Team <br />
+										   <div class="addcart-btn">
+											<a href="<?php base_url(); ?>userdata_view">
+												<button class="btn btn-primary" type="button">
+													<i class="fas fa-tv"></i>
+													&nbsp;&nbsp;&nbsp;View Journal
+												</button>
+											</a>
+										 </div>
                                        </div>
                                     </div>
                                  </div>
@@ -96,13 +106,9 @@
                                        <div class="product-hover">
                                           <ul>
                                              <li>
-                                                <button class="btn" type="button"><i class="icon-shopping-cart"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter1"><i class="icon-eye"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button"><i class="icofont icofont-law-alt-2"></i></button>
+                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter1">
+													<i class="icon-eye"></i>
+												</button>
                                              </li>
                                           </ul>
                                        </div>
@@ -142,10 +148,24 @@
                                        </div>
                                     </div>
                                     <div class="product-details">
-                                       <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                       <div class="rating">
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+									   </div>
                                        <h4>Journal Name</h4>
                                        <p>About Journal</p>
-                                       <div class="product-price">Korroboree Team
+                                       <div class="product-price">Korroboree Team <br />
+										   <div class="addcart-btn">
+											<a href="<?php base_url(); ?>userdata_view">
+												<button class="btn btn-primary" type="button">
+													<i class="fas fa-tv"></i>
+													&nbsp;&nbsp;&nbsp;View Journal
+												</button>
+											</a>
+										 </div>
                                        </div>
                                     </div>
                                  </div>
@@ -159,13 +179,9 @@
                                        <div class="product-hover">
                                           <ul>
                                              <li>
-                                                <button class="btn" type="button"><i class="icon-shopping-cart"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter2"><i class="icon-eye"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button"><i class="icofont icofont-law-alt-2"></i></button>
+                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter2">
+													<i class="icon-eye"></i>
+												</button>
                                              </li>
                                           </ul>
                                        </div>
@@ -205,10 +221,24 @@
                                        </div>
                                     </div>
                                     <div class="product-details">
-                                       <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                       <div class="rating">
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+									   </div>
                                        <h4>Journal Name</h4>
                                        <p>About Journal</p>
-                                       <div class="product-price">Korroboree Team
+                                       <div class="product-price">Korroboree Team <br />
+										   <div class="addcart-btn">
+											<a href="<?php base_url(); ?>userdata_view">
+												<button class="btn btn-primary" type="button">
+													<i class="fas fa-tv"></i>
+													&nbsp;&nbsp;&nbsp;View Journal
+												</button>
+											</a>
+										 </div>
                                        </div>
                                     </div>
                                  </div>
@@ -222,13 +252,9 @@
                                        <div class="product-hover">
                                           <ul>
                                              <li>
-                                                <button class="btn" type="button"><i class="icon-shopping-cart"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter2"><i class="icon-eye"></i></button>
-                                             </li>
-                                             <li>
-                                                <button class="btn" type="button"><i class="icofont icofont-law-alt-2"></i></button>
+                                                <button class="btn" type="button" data-toggle="modal" data-target="#exampleModalCenter2">
+													<i class="icon-eye"></i>
+												</button>
                                              </li>
                                           </ul>
                                        </div>
@@ -268,10 +294,24 @@
                                        </div>
                                     </div>
                                     <div class="product-details">
-                                       <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                       <div class="rating">
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+										   <i class="fa fa-star"></i>
+									   </div>
                                        <h4>Journal Name</h4>
                                        <p>About Journal</p>
-                                       <div class="product-price">Korroboree Team
+                                       <div class="product-price">Korroboree Team <br />
+										   <div class="addcart-btn">
+											<a href="<?php base_url(); ?>userdata_view">
+												<button class="btn btn-primary" type="button">
+													<i class="fas fa-tv"></i>
+													&nbsp;&nbsp;&nbsp;View Journal
+												</button>
+											</a>
+										 </div>
                                        </div>
                                     </div>
                                  </div>
