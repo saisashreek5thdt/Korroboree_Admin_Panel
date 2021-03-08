@@ -35,6 +35,20 @@
 									 <div class="card-body add-post">
 										<form class="theme-form needs-validation" novalidate="" enctype="multipart/form-data" action="<?php base_url(); ?>topic_list">
 										   <div class="form-group row">
+											  <label class="col-sm-3 col-form-label" for="episode_title">Select Your Episode</label>
+											  <div class="col-sm-9">
+												 <select class="form-control" id="exampleFormControlSelect9">
+													 <option>Please Choose Your Episode Number</option>
+													 <option>Episode 1</option>
+													 <option>Episode 1</option>
+													 <option>Episode 1</option>
+													 <option>Episode 1</option>
+													 <option>Episode 1</option>
+													 <option>Episode 1</option>
+												 </select>
+											  </div>
+										   </div>
+										   <div class="form-group row">
 											  <label class="col-sm-3 col-form-label" for="episode_title">Topic Title</label>
 											  <div class="col-sm-9">
 												 <input class="form-control" id="topic_title" type="text" placeholder="Topic Title">

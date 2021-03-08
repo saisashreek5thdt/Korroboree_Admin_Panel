@@ -35,14 +35,14 @@
 				<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>dashboard" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
-							<i class="mr-1" data-feather="layers"></i>&nbsp;&nbsp;&nbsp; Korroboree Team
+							<i class="mr-1" data-feather="layers"></i>&nbsp;&nbsp;&nbsp; Journal
 						</button>
 					</a>
 				</div>
 				<div class="form-group mb-1 mr-0">
 					<a href="#" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
-							<i class="mr-1" data-feather="film"></i>&nbsp;&nbsp;&nbsp; Korroboree Team Video Journal
+							<i class="mr-1" data-feather="film"></i>&nbsp;&nbsp;&nbsp; Video Journal
 						</button>
 					</a>
 				</div>  
