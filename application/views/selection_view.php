@@ -18,6 +18,9 @@
 					<h4>Hello Admin</h4>
                   	<p>Please Select Your Journal Type</p>
 			    </div>  
+
+				<?php if($this->session->userdata('admintype')=='5d'){  ?>
+
 				<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>dashboard_five" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
@@ -32,6 +35,8 @@
 						</button>
 					</a>
 				</div>
+
+				<?php }  else{   ?>
 				<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>dashboard" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
@@ -46,8 +51,10 @@
 						</button>
 					</a>
 				</div>  
+
+				<?php } ?>
 				<div class="form-group mb-1 mr-0">
-					<a href="<?php base_url(); ?>home" class="m-t-15">
+					<a href="<?php base_url(); ?>logout" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
 							<i class="mr-1" data-feather="log-out"></i>&nbsp;&nbsp;&nbsp; Logout
 						</button>
