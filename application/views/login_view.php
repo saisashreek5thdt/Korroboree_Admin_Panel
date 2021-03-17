@@ -24,8 +24,14 @@
                   </div>
                   <div class="form-group">
                     <label class="col-form-label">Password</label>
+<<<<<<< HEAD
                     <input class="form-control" type="password" name="login[password]" placeholder="*********">
                     <div class="invalid-tooltip">Please enter password.</div>
+=======
+                    <input class="form-control" type="password" name="password" required placeholder="*********">
+                    <div class="invalid-tooltip">Please enter password.
+                    </div>
+>>>>>>> 89849da0572386a707981162dd1ca3bbba6262e7
                     <div class="show-hide">
 						           <span class="show"></span>
                     </div>

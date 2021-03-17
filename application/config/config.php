@@ -23,9 +23,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] =  ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ?  "https" : "http");
 $config['base_url'] .=  "://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .=  str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+=======
+//$config['base_url'] = 'http://localhost:80/Korroboree_Admin_Panel/';
+$config['base_url'] = 'http://localhost:48/korroboree_panel/';
+//$config['base_url'] = 'http://todlearning.com/journal_admin/';
+>>>>>>> 89849da0572386a707981162dd1ca3bbba6262e7
 
 /*
 |--------------------------------------------------------------------------
