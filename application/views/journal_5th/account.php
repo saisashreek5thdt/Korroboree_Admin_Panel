@@ -8,7 +8,7 @@
                         <div class="col-6">
                            <ol class="breadcrumb">
                               <li class="breadcrumb-item">
-								  <a href="<?php base_url(); ?>dashboard">
+								  <a href="<?php echo base_url(); ?>dashboard">
 									  <i data-feather="home"></i>
 								  </a>
 							  </li> 
@@ -25,7 +25,7 @@
                            <div class="card">
                               <div class="card-body">
                                  <div class="product-slider owl-carousel owl-theme" id="sync1">
-                                    <div class="item"><img src="<?php base_url(); ?>assets/images/logo/logo2.png" alt=""></div>
+                                    <div class="item"><img src="<?php echo base_url(); ?>assets/images/logo/logo2.png" alt=""></div>
                                  </div>
                               </div>
                            </div>	
@@ -57,7 +57,7 @@
                                  </div>
                                  <hr>
                                  <div class="m-t-15">
-                                    <a href="<?php base_url(); ?>settings">
+                                    <a href="<?php echo base_url(); ?>settings">
 										<button class="btn btn-primary m-r-10" type="button" title=""> 
 											<i class="fas fa-edit mr-1"></i>Update / Edit
 										</button>

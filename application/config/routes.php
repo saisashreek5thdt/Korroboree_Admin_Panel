@@ -50,9 +50,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
-$route['enter'] = 'home/landing';
-$route['selection'] = 'home/selection';
-$route['logout'] = 'home/logout';
+
+$route['selection'] = 'admin/dashboard/selection';
+$route['admindashboard'] = 'admin/admindashboard';
 /* Korroboree Team Journal Dashboard*/
 
 $route['account'] = 'k_team_journal/admin/account';

@@ -7,37 +7,37 @@
       <meta name="description" content="Cuba admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
       <meta name="keywords" content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
       <meta name="author" content="pixelstrap">
-      <link rel="icon" href="<?php base_url(); ?>assets/images/logo/5thdt_logo.jpeg" type="image/x-icon">
-      <link rel="shortcut icon" href="<?php base_url(); ?>assets/images/logo/5thdt_logo.jpeg" type="image/x-icon">
+      <link rel="icon" href="<?php echo base_url(); ?>adminassets/images/logo/5thdt_logo.jpeg" type="image/x-icon">
+      <link rel="shortcut icon" href="<?php echo base_url(); ?>adminassets/images/logo/5thdt_logo.jpeg" type="image/x-icon">
       <title>Korroboree Admin Panel</title>
       <!-- Google font-->
       <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
 	  <!-- FontAwesome Icons--> 
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/all.css">
-	  <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/fontawesome.css"> 
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/all.css">
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/fontawesome.css"> 
       <!-- ico-font-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/icofont.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/icofont.css">
       <!-- Themify icon-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/themify.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/themify.css">
       <!-- Flag icon-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/flag-icon.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/flag-icon.css">
       <!-- Feather icon-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/feather-icon.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/feather-icon.css">
       <!-- Plugins css start-->
-	  <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/datatables.css"> 
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/animate.css">
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/chartist.css">
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/date-picker.css">
-	  <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/jkanban.css"> 
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/datatables.css"> 
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/animate.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/chartist.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/date-picker.css">
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/jkanban.css"> 
       <!-- Plugins css Ends-->
       <!-- Bootstrap css-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/vendors/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/vendors/bootstrap.css">
       <!-- App css-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/style.css">
-      <link id="color" rel="stylesheet" href="<?php base_url(); ?>assets/css/color-1.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/style.css">
+      <link id="color" rel="stylesheet" href="<?php echo base_url(); ?>adminassets/css/color-1.css" media="screen">
       <!-- Responsive css-->
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>adminassets/css/responsive.css">
    </head>
    <body>
       <!-- tap on top starts-->
@@ -51,7 +51,7 @@
                <div class="header-logo-wrapper">
                   <div class="logo-wrapper">
 					  <a href="dashboard.html">
-						  <img class="img-fluid" src="<?php base_url(); ?>assets/images/logo/5thdt_logo.jpeg" alt="">
+						  <img class="img-fluid" src="<?php echo base_url(); ?>adminassets/images/logo/5thdt_logo.jpeg" alt="">
 					  </a>
 				  </div>
                   <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="sliders"></i></div>
@@ -93,7 +93,7 @@
                            </li>
                            <li>
                               <div class="media">
-                                 <img class="img-fluid rounded-circle mr-3" src="<?php base_url(); ?>assets/images/user/1.jpg" alt="">
+                                 <img class="img-fluid rounded-circle mr-3" src="<?php echo base_url(); ?>adminassets/images/user/1.jpg" alt="">
                                  <div class="status-circle online"></div>
                                  <div class="media-body">
                                     <span>Erica Hughes</span>
@@ -104,7 +104,7 @@
                            </li>
                            <li>
                               <div class="media">
-                                 <img class="img-fluid rounded-circle mr-3" src="<?php base_url(); ?>assets/images/user/2.jpg" alt="">
+                                 <img class="img-fluid rounded-circle mr-3" src="<?php echo base_url(); ?>adminassets/images/user/2.jpg" alt="">
                                  <div class="status-circle online"></div>
                                  <div class="media-body">
                                     <span>Kori Thomas</span>
@@ -115,7 +115,7 @@
                            </li>
                            <li>
                               <div class="media">
-                                 <img class="img-fluid rounded-circle mr-3" src="<?php base_url(); ?>assets/images/user/4.jpg" alt="">
+                                 <img class="img-fluid rounded-circle mr-3" src="<?php echo base_url(); ?>adminassets/images/user/4.jpg" alt="">
                                  <div class="status-circle offline"></div>
                                  <div class="media-body">
                                     <span>Ain Chavez</span>
@@ -129,7 +129,7 @@
                      </li>
                      <li class="profile-nav onhover-dropdown p-0 mr-0">
                         <div class="media profile-media">
-                           <img class="b-r-10" src="<?php base_url(); ?>assets/images/dashboard/profile.jpg" alt="">
+                           <img class="b-r-10" src="<?php echo base_url(); ?>adminassets/images/dashboard/profile.jpg" alt="">
                            <div class="media-body">
                               <span>5THDT Admin</span>
                               <p class="mb-0 font-roboto">Admin <i class="middle fa fa-angle-down"></i></p>
@@ -137,25 +137,25 @@
                         </div>
                         <ul class="profile-dropdown onhover-show-div">
                            <li>
-							   <a href="<?php base_url(); ?>account_five">
+							   <a href="<?php echo base_url(); ?>account_five">
 								   <i data-feather="user"></i>
 								   <span>Account </span>
 							   </a>
 						   </li>
                            <li>
-							   <a href="<?php base_url(); ?>settings_five">
+							   <a href="<?php echo base_url(); ?>settings_five">
 								   <i data-feather="settings"></i>
 								   <span>Settings</span>
 							   </a>
 						   </li>
                            <li>
-							   <a href="<?php base_url(); ?>enter">
+							   <a href="<?php echo base_url(); ?>selection">
 								   <i data-feather="log-out"></i>
 								   <span>Exit</span>
 							   </a>
 						   </li>
 						   <li>
-							   <a href="<?php base_url(); ?>logout">
+							   <a href="<?php echo base_url(); ?>admin/Admindashboard/logout">
 								   <i data-feather="log-out"></i>
 								   <span>Log Out</span>
 							   </a>

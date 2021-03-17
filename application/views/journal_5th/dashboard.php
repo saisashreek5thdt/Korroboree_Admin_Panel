@@ -31,7 +31,7 @@
                               </div>
                               <div class="greeting-user text-center">
                                  <div class="profile-vector">
-									 <img class="img-fluid" src="<?php base_url(); ?>assets/images/dashboard/welcome.png" alt="">
+									 <img class="img-fluid" src="<?php base_url(); ?>adminassets/images/dashboard/welcome.png" alt="">
 								 </div>
                                  <h4 class="f-w-600">
 									 <span id="greeting">Good Morning</span> 
@@ -146,8 +146,8 @@
                               <div class="media">
                                  <div class="media-body">
                                     <div class="d-flex mb-3">
-                                       <div class="inner-img"><img class="img-fluid" src="<?php base_url(); ?>assets/images/notification/1.jpg" alt="Product-1"></div>
-                                       <div class="inner-img"><img class="img-fluid" src="<?php base_url(); ?>assets/images/notification/2.jpg" alt="Product-2"></div>
+                                       <div class="inner-img"><img class="img-fluid" src="<?php base_url(); ?>adminassets/images/notification/1.jpg" alt="Product-1"></div>
+                                       <div class="inner-img"><img class="img-fluid" src="<?php base_url(); ?>adminassets/images/notification/2.jpg" alt="Product-2"></div>
                                     </div>
                                     <span class="mt-3">Quisque a consequat ante sit amet magna...</span>
                                  </div>

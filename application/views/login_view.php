@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xl-5">
-			<img class="bg-img-cover bg-center" src="<?php base_url(); ?>assets/images/backgrounds/login_bg.png" alt="looginpage">
+			<img class="bg-img-cover bg-center" src="<?php echo base_url(); ?>adminassets/images/backgrounds/login_bg.png" alt="looginpage">
 		</div>
         <div class="col-xl-7 p-0">
           <div class="login-card">
@@ -14,25 +14,21 @@
 				  </a>
 			  </div>-->
               <div class="login-main"> 
-                <form class="theme-form needs-validation" novalidate="" METHOD="POST" action="<?php base_url(); ?> selection" enctype="multipart/form-data">
+                <form class="theme-form needs-validation" novalidate="" action="<?php echo base_url(); ?>admin/admindashboard/selection" enctype="multipart/form-data">
                   <h4>Sign in to account</h4>
                   <p>Enter your email &amp; password to login</p>
                   <div class="form-group">
                     <label class="col-form-label">Email Address</label>
-                    <input class="form-control" type="email" name="username" required placeholder="Test@gmail.com">
+                    <input class="form-control" type="email" placeholder="Test@gmail.com">
                     <div class="invalid-tooltip">Please enter proper email.</div>
                   </div>
                   <div class="form-group">
                     <label class="col-form-label">Password</label>
-                    <input class="form-control" type="password" name="password" required placeholder="*********">
-                    <div class="invalid-tooltip">Please enter password.
-
-
-                    
-                    </div>
+                    <input class="form-control" type="password" name="login[password]" placeholder="*********">
+                    <div class="invalid-tooltip">Please enter password.</div>
                     <div class="show-hide">
-						<span class="show"></span>
-					</div>
+						           <span class="show"></span>
+                    </div>
                   </div>
                   <div class="form-group mb-0">
                     <!--<div class="checkbox p-0">
@@ -40,10 +36,6 @@
                       <label class="text-muted" for="checkbox1">Remember password</label>
                     </div>-->
                     <button class="btn btn-primary btn-block" type="submit">Sign in</button>
-                    <br>
-                    <span style="color:red">  
-                    <?php echo 	$this->session->flashdata('error');  ?>
-                    </span>
                   </div>
                   <script>
                     (function() {
