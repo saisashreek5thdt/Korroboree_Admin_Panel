@@ -26,9 +26,6 @@
                     <label class="col-form-label">Password</label>
                     <input class="form-control" type="password" name="password" required placeholder="*********">
                     <div class="invalid-tooltip">Please enter password.
-
-
-                    
                     </div>
                     <div class="show-hide">
 						<span class="show"></span>
