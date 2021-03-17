@@ -149,13 +149,13 @@
 							   </a>
 						   </li>
                            <li>
-							   <a href="<?php base_url(); ?>selection">
+							   <a href="<?php base_url(); ?>enter">
 								   <i data-feather="log-out"></i>
 								   <span>Exit</span>
 							   </a>
 						   </li>
 						   <li>
-							   <a href="<?php base_url(); ?>home">
+							   <a href="<?php base_url(); ?>logout">
 								   <i data-feather="log-out"></i>
 								   <span>Log Out</span>
 							   </a>
