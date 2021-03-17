@@ -18,7 +18,7 @@
 					<h4>Hello Admin</h4>
                   	<p>Please Select Your Journal Type</p>
 			    </div>  
-				<div class="form-group mb-1 mr-0">
+				<!--<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>dashboard_five" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
 							<i class="mr-1" data-feather="layers"></i>&nbsp;&nbsp;&nbsp; Journal
@@ -31,7 +31,7 @@
 							<i class="mr-1" data-feather="film"></i>&nbsp;&nbsp;&nbsp; Video Journal
 						</button>
 					</a>
-				</div>
+				</div>-->
 				<div class="form-group mb-1 mr-0">
 					<a href="<?php base_url(); ?>dashboard" class="m-t-15">
 						<button class="btn btn-primary btn-block m-r-10" type="button">
