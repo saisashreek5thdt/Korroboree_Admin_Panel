@@ -55,7 +55,7 @@
 	<script>
 		document.getElementById('myvideo').addEventListener('ended',myHandler, false);
 		function myHandler(e) {
-		window.location="<?php echo base_url() ?>home/";
+		window.location="<?php echo base_url() ?>home/index1";
 		};
 	 </script>
 

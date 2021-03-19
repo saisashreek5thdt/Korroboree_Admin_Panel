@@ -1,4 +1,70 @@
-  <?php include "includes/header.php"; ?>
+<!doctype html>
+<html lang="en">
+<script>
+
+function save1(){
+var a=document.getElementById("s1").value;
+
+document.getElementById("t1").value=a;
+
+}
+function save2(){
+var a=document.getElementById("s2").value;
+
+document.getElementById("t2").value=a;
+
+}
+
+
+function save3(){
+var a=document.getElementById("s3").value;
+
+document.getElementById("t3").value=a;
+
+}
+
+
+function save4(){
+var a=document.getElementById("s4").value;
+
+document.getElementById("t4").value=a;
+
+}
+
+
+</script>
+<head> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"> -->
+	
+	<!-- Bootstrap CSS	-->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+	<!-- Custom CSS -->
+    <link href="<?php echo base_url() ?>frontassets/css/style.css" rel="stylesheet" type="text/css">
+	
+	<!-- FontAwesome CSS -->
+  <link href="<?php echo base_url() ?>frontassets/fonts/css/all.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="<?php echo base_url() ?>frontassets/css/responsive.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <!-- Aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+ />
+	
+	<title>khorroborre</title>
+  </head>
   <body>
     <div class="why_page">
 
@@ -79,13 +145,13 @@
         </div>
       
         <div class="col-lg-6 col-md-6 hand_bg padding_error mt-55"  >
-        <form action="<?php echo base_url() ?>topics/topic_4_insert" method="POST" onsubmit="return check()">
+        <form action="<?php echo base_url() ?>topics/topic_4_insert" method="POST" >
           <div class="right_side_rectngle">
             <div class="inside_rectgle top_4_hed">
               <div class="row">
                 <div class="col">
                   <a href="#myModal" class="submit_input_3" data-toggle="modal">
-				  <input type="text" name="topic1" id="t1"     placeholder="enter here text" class="why_input  tpc_4_inpt tchnge first_int" >
+				  <input type="text" name="topic1" id="t1"     placeholder="enter here text" class="why_input  tpc_4_inpt tchnge first_int" required >
                   </a>
                   <!-- Modal HTML -->
     <div id="myModal" class="modal">
@@ -98,7 +164,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="topic1" id="s1" class="form-control" cols="20" rows="5" ></textarea>
+            <textarea name="" id="s1" class="form-control" cols="20" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 	  <center>
@@ -142,7 +208,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="topic2" id="s2" class="form-control" cols="20" rows="5" ></textarea>
+            <textarea name="" id="s2" class="form-control" cols="20" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 	  <center>
@@ -185,7 +251,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="topic3" id="s3" class="form-control" cols="20" rows="5" ></textarea>
+            <textarea name="" id="s3" class="form-control" cols="20" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 		  <center>
@@ -227,7 +293,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="topic4" id="s4" class="form-control" cols="20" rows="5" ></textarea>
+            <textarea name="" id="s4" class="form-control" cols="20" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 	  <center>

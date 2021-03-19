@@ -67,7 +67,7 @@
 
             
               <video  controls  class="tpc_3_tv_vdo vide_bdr_inline video_inline" id="myvideo" autoplay muted=""   >
-              <source src="<?php echo base_url() ?>frontassets/images/video/Simon_Sinek.mp4" type="video/mp4" >
+              <source src="<?php echo base_url('uploads/video/'.$video_list->video); ?>" type="video/mp4" >
               </video>
          
 

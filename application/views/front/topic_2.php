@@ -51,7 +51,7 @@
                 <img src="<?php echo base_url() ?>frontassets/images/background/tree.png" alt="" class="tree tree_inline" >
               </div>
               <div class="col-lg-10 col-md-10 col-sm-10 padding_error productivity_top_mar mt-10" align="center" >
-                <p class="productivity">To multiply the productivity (10x) of every child, by supporting parents  with scientific information, and tools and resources they can use. Parents will also be able to use these to enhance their own productivity.</p>
+                <p class="productivity"><?php echo $edit->title_1 ?></p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
                 <img src="<?php echo base_url() ?>frontassets/images/background/tree.png" alt="" class="tree tree_inline" >
               </div>
               <div class="col-lg-10 col-md-10 col-sm-10 padding_error mt-10" align="center" >
-                <p class="productivity">To share the process and mindset of what successful people do. </p>
+                <p class="productivity"><?php echo $edit->title_2 ?></p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
                 <img src="<?php echo base_url() ?>frontassets/images/background/tree.png" alt="" class="tree tree_inline" >
               </div>
               <div class="col-lg-10 col-md-10 col-sm-10 padding_error mt-10" align="center" >
-                <p class="productivity">To share the tools and resources so we can create some of the magic  sauce for ourselves, and we use them to parent purposefully.  </p>
+                <p class="productivity"><?php echo $edit->title_3 ?></p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@
                 <img src="<?php echo base_url() ?>frontassets/images/background/tree.png" alt="" class="tree tree_inline" >
               </div>
               <div class="col-lg-10 col-md-10 col-sm-10 padding_error mt-10" align="center" >
-                <p class="productivity">Through this process you will be able to implement success habits and mindsets so you may leave your own best life, and parent  your children so they can live theirs. </p>
+                <p class="productivity"><?php  echo $edit->title_4 ?></p>
               </div>
             </div>
           </div>

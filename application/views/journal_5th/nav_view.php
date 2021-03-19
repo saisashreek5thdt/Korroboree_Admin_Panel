@@ -27,7 +27,7 @@
 						   </div>
                         </li>
                         <li class="sidebar-list">
-                            <a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>dashboard_five">
+                            <a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>Five_team/dashboard_five">
 								<i data-feather="home"></i>
 								<span class="lan-3">Dashboard</span>
 							</a>
@@ -51,9 +51,23 @@
 							   <span class="lan-7">Episodes</span>
 						   </a>
                         </li>
+                          <li class="sidebar-list">
+						   <label class="badge badge-danger">New</label>	
+                           <a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>journal_5th/episode/episode_2episode_2">
+							   <i data-feather="layout"></i>
+							   <span class="lan-7">Topics 2</span>
+						   </a>
+                        </li>
+                           <li class="sidebar-list">
+						   <label class="badge badge-danger"></label>	
+                           <a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>video">
+							   <i data-feather="layout"></i>
+							   <span class="lan-7">Videos</span>
+						   </a>
+                        </li>
                         <li class="sidebar-list">
                             <label class="badge badge-danger">New</label>
-							<a class="sidebar-link sidebar-title link-nav" href="#">
+							<a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>episode_list_five">
 								<i data-feather="box"></i>
 								<span>Topics</span>
 							</a>

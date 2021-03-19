@@ -23,5 +23,10 @@ class Five_team extends CI_Controller {
 		$this->load->view('journal_5th/settings');
 		$this->load->view('journal_5th/footer');
 	}
-	
+	public function topics()
+	{
+		$this->load->view('journal_5th/header');
+		$this->load->view('journal_5th/settings');
+		$this->load->view('journal_5th/footer');
+	}
 }

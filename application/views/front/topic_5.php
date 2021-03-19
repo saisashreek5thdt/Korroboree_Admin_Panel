@@ -1,7 +1,7 @@
 <?php include("includes/header.php"); ?>
   <body>
     <div class="telegram">
-
+     
 
         <!-- popup -->
         <div class="popUpMain col-12" style="display: none;">
@@ -70,6 +70,7 @@
           
         </div>
         <div class="col-lg-10 col-md-10 col-sm-10">
+         <form actio="<?php echo base_url(); ?>topics/topic_5_insert" method="post">
           <div class="row midle_size">
             <div class="col-md-4 col-sm-6 envelope">
               <img src="<?php echo base_url() ?>frontassets/images/background/telegram_1.png" class="tele_img w-100_in_5" alt="" >
@@ -78,7 +79,7 @@
               <img src="<?php echo base_url() ?>frontassets/images/background/input_telegram.png" alt=""  class="input_tele_bg tele_img w-100_in_5" id="letter1">
               <div class="input_txt_tele">
                 <a href="#myModal" class="submit_input_3" data-toggle="modal" >
-				<input type="text" id="t1" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
+				<input type="text" name="topic1" id="t1" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly required>
 				<p id="a1" style="color:#1B4167;font-style:italic;font-size:10px; display:none;width:100px;height:120px;overflow:hidden">
 				
 				</p>
@@ -95,7 +96,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="" id="text1" cols="60" rows="5" ></textarea>
+            <textarea  name="topic1"  id="text1" cols="60" rows="5" required></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;"> 
 		    <center>
@@ -122,7 +123,7 @@
               <img src="<?php echo base_url() ?>frontassets/images/background/input_telegram.png" alt=""  class="input_tele_bg tele_img w-100_in_5" id="letter2">
               <div class="input_txt_tele">
                 <a href="#myModal2" class="submit_input_3" data-toggle="modal"> 
-				<input type="text" id="t2" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
+				<input type="text" id="t2"  name="topic2"  class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly required>
 					<p id="a2" style="color:#1B4167;font-style:italic;font-size:10px; display:none;width:100px;height:120px;overflow:hidden">
 				
 				</p>
@@ -140,7 +141,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="" id="text2" cols="60" rows="5" ></textarea>
+            <textarea  name="topic2" id="text2" cols="60" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 		    <center>
@@ -167,7 +168,7 @@
               <img src="<?php echo base_url() ?>frontassets/images/background/input_telegram.png" alt=""  class="input_tele_bg tele_img w-100_in_5" id="letter3">
               <div class="input_txt_tele">
                 <a href="#myModal3" class="submit_input_3" data-toggle="modal"> 
-				<input type="text" placeholder="" class="input_text_inside first_int tpc_5_inside tpc_5_t1" id="t3" readonly>
+				<input type="text"  name="topic3" placeholder="" class="input_text_inside first_int tpc_5_inside tpc_5_t1" id="t3" readonly required>
 					<p id="a3" style="color:#1B4167;font-style:italic;font-size:10px; display:none;width:100px;height:120px;overflow:hidden">
 				
 				</p>
@@ -184,7 +185,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="" id="text3" cols="60" rows="5" ></textarea>
+            <textarea  name="topic3" id="text3" cols="60" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 		    <center>
@@ -209,7 +210,7 @@
               <img src="<?php echo base_url() ?>frontassets/images/background/input_telegram.png" alt=""  class="input_tele_bg tele_img w-100_in_5" id="letter4">
               <div class="input_txt_tele">
                 <a href="#myModal4" class="submit_input_3" data-toggle="modal"> 
-				<input type="text" id="t4" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
+				<input type="text"  name="topic4" id="t4" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
 							<p id="a4" style="color:#1B4167;font-style:italic;font-size:10px; display:none;width:100px;height:120px;overflow:hidden">
 				
 				</p>
@@ -227,7 +228,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="" id="text4" cols="60" rows="5" ></textarea>
+            <textarea name="topic4" id="text4" cols="60" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 		    <center>
@@ -252,7 +253,7 @@
               <img src="<?php echo base_url() ?>frontassets/images/background/input_telegram.png" alt=""  class="input_tele_bg tele_img w-100_in_5"  id="letter5">
               <div class="input_txt_tele">
                 <a href="#myModal5" class="submit_input_3" data-toggle="modal"> 
-				<input type="text" id="t5" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
+				<input type="text" name="topic5" id="t5" class="input_text_inside first_int tpc_5_inside tpc_5_t1" readonly>
 							<p id="a5" style="color:#1B4167;font-style:italic;font-size:10px; display:none;width:100px;height:120px;overflow:hidden">
 				
 				</p>
@@ -268,7 +269,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <textarea name="" id="text5" cols="60" rows="5" ></textarea>
+            <textarea name="topic5" id="text5" cols="60" rows="5" ></textarea>
           </div>
           <div class="modal-footer" style="border-top: none;">
 		    <center>
@@ -290,16 +291,8 @@
             
             </div>
           </div>
-<!--           <div class="row">
-          <div class="col-lg-8 col-md-4 five_submit " align="right" style="margin-top: 15px;">
-           <a href="topic_5_1.html"> <img src="assets/images/background/submit.png" alt="" class="tele_submit submit_btn_all add_submit_an" ></a>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <img src="assets/images/gif/mailbox_gif--2.gif" alt="" width="100%" class="gif_tele">
-          </div>
-          </div>
- -->        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
+          
+            <div class="col-lg-2 col-md-2 col-sm-2">
         </div>
       </div>
     
@@ -307,7 +300,8 @@
         <div class="col-lg-7 col-md-7 tpc_5_btm" align="right">
           <img src="<?php echo base_url() ?>frontassets/images/background/butn_bg.png" class="write_box tp_5_sub add_submit_an" alt=""  > 
           <div class="sub_5 tp_5_sub">
-            Submit 
+<button type="submit" class="" data-dismiss="modal">submit</button>
+
           </div>
         </div>
         <div class="col-lg-5 col-md-5 " align="right">
@@ -315,9 +309,14 @@
         </div>
       </div>
 
+                            
+         </form>
+ </div>
+      
+
+
     
     </div>
-
    <!-- bottom index -->
  <div class="widget">
   <button class="" id="chatme">

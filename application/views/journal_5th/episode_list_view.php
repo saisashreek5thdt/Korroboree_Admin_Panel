@@ -27,7 +27,7 @@
 							  <h5>List of Episodes Created by Korroboree Team</h5>
 							  <div class="card-header-right">
 								  <h6>
-									  <a href="#">Create New Episode</a>
+									  <a href="<?php  base_url();  ?>create">Create New Episode</a>
 								  </h6>
 								  <h6>
 									  <a href="#">Episode Tracker</a>

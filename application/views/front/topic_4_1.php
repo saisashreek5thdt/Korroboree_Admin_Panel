@@ -13,12 +13,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	
 	<!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url() ?>frontassets/css/style.css" rel="stylesheet" type="text/css">
 	
 	<!-- FontAwesome CSS -->
-  <link href="assets/fonts/css/all.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url() ?>frontassets/fonts/css/all.css" rel="stylesheet" type="text/css">
   
-  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>frontassets/css/responsive.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -39,16 +39,16 @@
         <!-- popup -->
         <div class="popUpMain col-12" style="display: none;">
           <!-- <div id=""> -->
-              <img src="assets/images/background/exit_bg.png" class="pop_img_s" />
+              <img src="<?php echo base_url() ?>frontassets/images/background/exit_bg.png" class="pop_img_s" />
               <div>
                 <div class="row exit_txt">
                   <div class="col">
-                   <img src="assets/images/background/koro_logo.png" alt="" class="pop_logo">
+                   <img src="<?php echo base_url() ?>frontassets/images/background/koro_logo.png" alt="" class="pop_logo">
                   </div>
                 </div>
                 <div class="row exit_txt2">
                   <div class="col-lg-3 col-md-3">
-                    <img src="assets/images/background/end_4.png" alt=""  class="left_side_img w-80">
+                    <img src="<?php echo base_url() ?>frontassets/images/background/end_4.png" alt=""  class="left_side_img w-80">
                   </div>
                   <div class="col-lg-9 col-md-9 mbl_scrn">
                     <div class="row">
@@ -57,8 +57,8 @@
                       </div>
                     </div>
                     <div class="row mt-20" >
-                       <img src="assets/images/background/next_btn.png" alt="" class="img_next next_inline" >
-                      <img src="assets/images/background/index.png" alt="" class="index_img next_inline" >
+                       <img src="<?php echo base_url() ?>frontassets/images/background/next_btn.png" alt="" class="img_next next_inline" >
+                      <img src="<?php echo base_url() ?>frontassets/images/background/index.png" alt="" class="index_img next_inline" >
                     </div>
                   </div>
                 </div>
@@ -69,8 +69,8 @@
 
       <div class="row">
         <div class="col mbl_icon" align="right">
-          <img src="assets/images/icons/book.png" alt="" data-toggle="tooltip" data-placement="bottom" title="Journal entry" class="right_side_icon ">
-          <img src="assets/images/icons/boy_g.png" data-toggle="tooltip" data-placement="bottom" title="Individual activity" alt=""  class="right_side_icon ">
+          <img src="<?php echo base_url() ?>frontassets/images/icons/book.png" alt="" data-toggle="tooltip" data-placement="bottom" title="Journal entry" class="right_side_icon ">
+          <img src="<?php echo base_url() ?>frontassets/images/icons/boy_g.png" data-toggle="tooltip" data-placement="bottom" title="Individual activity" alt=""  class="right_side_icon ">
             
         </div>
       </div>
@@ -80,8 +80,8 @@
             List some of the ways you can assist your children towards finding their purpose or finding their ‘Why’.
           </div>
           <div class="col-lg-2 col-md-2 rigt_se" align="right">
-            <img src="assets/images/icons/book.png" alt="" data-toggle="tooltip" data-placement="bottom" title="Pencil with diary icon" class="right_side_icon ">
-            <img src="assets/images/icons/boy_g.png" data-toggle="tooltip" data-placement="bottom" title="Parent icon " alt=""  class="right_side_icon ">
+            <img src="<?php echo base_url() ?>frontassets/images/icons/book.png" alt="" data-toggle="tooltip" data-placement="bottom" title="Pencil with diary icon" class="right_side_icon ">
+            <img src="<?php echo base_url() ?>frontassets/images/icons/boy_g.png" data-toggle="tooltip" data-placement="bottom" title="Parent icon " alt=""  class="right_side_icon ">
            
           </div>
         </div>
@@ -92,7 +92,7 @@
         <div class="col-lg-5 col-md-5 top_box_why padding_error">
           <div class="row mt-20" >
             <div class="col">
-              <img src="assets/images/background/thre_why.png" alt=""  class="three_why img-responsive w-100_in">
+              <img src="<?php echo base_url() ?>frontassets/images/background/thre_why.png" alt=""  class="three_why img-responsive w-100_in">
             </div>
           </div>
           <div class="row">
@@ -100,7 +100,7 @@
               <div class="card mt-10" >
                 <div class="row card-body">
                   <div class="col">
-                    <img src="assets/images/background/family_why.png" alt="" class="family_why_bg img-responsive w-50_in">
+                    <img src="<?php echo base_url() ?>frontassets/images/background/family_why.png" alt="" class="family_why_bg img-responsive w-50_in">
                   </div>
                   <div class="col mt-10" align="center" >
                     <p class="why_text">Our <b>‘why’</b> or the meaning we set, creates an  intrinsic motivation to do things. When we are purposeful with our interactions with children, it will help us be more confident as parents. </p>
@@ -112,7 +112,7 @@
           </div>
       
         <div class="col-lg-6 col-md-6 hand_bg padding_error mt-55"  align="center" >
-        <img src="assets/images/gif/successfully_completed_gif_.gif" alt=""  class="topi_4_suces w-25_inline">
+        <img src="<?php echo base_url() ?>frontassets/images/gif/successfully_completed_gif_.gif" alt=""  class="topi_4_suces w-25_inline">
         </div>
       
       
@@ -171,13 +171,13 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/bootstrap/js/jquery-3.5.1.slim.js"></script>
-    <script src="assets/bootstrap/js/popper.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="<?php echo base_url() ?>frontassets/bootstrap/js/jquery-3.5.1.slim.js"></script>
+    <script src="<?php echo base_url() ?>frontassets/bootstrap/js/popper.js"></script>
+    <script src="<?php echo base_url() ?>frontassets/bootstrap/js/bootstrap.js"></script>
 	  
-	<script src="assets/js/hideshow.js"></script>
+	<script src="<?php echo base_url() ?>frontassets/js/hideshow.js"></script>
 	  
-  <script src="assets/fonts/js/all.js"></script>
+  <script src="<?php echo base_url() ?>frontassets/fonts/js/all.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -211,17 +211,17 @@
 
   function chnge_img(){
                     document.getElementById('chnge_imgg') 
-        .src="assets/images/background/min_bulb_on.png"; 
+        .src="<?php echo base_url() ?>frontassets/images/background/min_bulb_on.png"; 
                     
                 }
   function chnge_img2(){
                     document.getElementById('chnge_imgg2') 
-        .src="assets/images/background/min_bulb_on.png"; 
+        .src="<?php echo base_url() ?>frontassets/images/background/min_bulb_on.png"; 
                     
                 }
   function chnge_img3(){
                     document.getElementById('chnge_imgg3') 
-        .src="assets/images/background/min_bulb_on.png"; 
+        .src="<?php echo base_url() ?>frontassets/images/background/min_bulb_on.png"; 
                     
                 }
 </script>

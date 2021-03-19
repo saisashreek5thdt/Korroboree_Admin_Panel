@@ -83,13 +83,13 @@
             <div class="col-lg-9 col-md-9 " >
                <div class="bg_chil">
                <div class="ml_30_per">
-               <form action="<?php echo base_url();  ?>topics/topic_6_insert" method="post" >
+               <form class="needs-validation" data-toggle="validator"  action="<?php echo base_url();  ?>topics/topic_6_insert"  method="post" >
                   <div class="row  row_left ml-30" >
                      <div class="col text-start mbl_top_tp_6 mt-10_6 ml-30_6" >
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" alt="" class="hungle_img" width="10%" style="float: left;" >
                         <div class="white_clr_inpt" id="demo" >
                            <a href="#myModal" class="submit_input_3 first_int" data-toggle="modal">
-                           <input type="text" placeholder="enter here text" name ="topic1" class="input_brdr tp_6_inpt" id="k1">
+                           <input type="text" placeholder="enter here text" name ="topic1" class="input_brdr tp_6_inpt" id="k1" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal" class="modal">
@@ -124,7 +124,7 @@
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" class="hungle_img" alt="" width="10%" style="float: left;" >
                         <div class="white_clr_inpt" id="demo2" >
                            <a href="#myModal2" class="submit_input_3" data-toggle="modal"> 
-                           <input type="text" placeholder=" " name ="topic2" class="input_brdr tp_6_inpt" id="k2">
+                           <input type="text" placeholder=" " name ="topic2" class="input_brdr tp_6_inpt" id="k2" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal2" class="modal">
@@ -159,7 +159,7 @@
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" class="hungle_img" alt="" width="10%" style="float: left;" >
                         <div class="white_clr_inpt"  id="demo3" >
                            <a href="#myModal3" class="submit_input_3" data-toggle="modal"> 
-                           <input type="text" name ="topic3" placeholder="" class="input_brdr tp_6_inpt" id="k3">
+                           <input type="text" name ="topic3" placeholder="" class="input_brdr tp_6_inpt" id="k3" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal3" class="modal">
@@ -194,7 +194,7 @@
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" alt="" class="hungle_img" width="10%" style="float: left;" >
                         <div class="white_clr_inpt" id="demo4" >
                            <a href="#myModal4" class="submit_input_3" data-toggle="modal"> 
-                           <input type="text" name ="topic4" placeholder="" class="input_brdr tp_6_inpt" id="k4">
+                           <input type="text" name ="topic4" placeholder="" class="input_brdr tp_6_inpt" id="k4" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal4" class="modal">
@@ -229,7 +229,7 @@
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" alt="" class="hungle_img" width="10%" style="float: left;" >
                         <div class="white_clr_inpt" id="demo5" >
                            <a href="#myModal5" class="submit_input_3" data-toggle="modal"> 
-                           <input type="text"  name ="topic5" placeholder="" class="input_brdr tp_6_inpt" id="k5">
+                           <input type="text"  name ="topic5" placeholder="" class="input_brdr tp_6_inpt" id="k5" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal5" class="modal">
@@ -264,7 +264,7 @@
                         <img src="<?php echo base_url() ?>frontassets/images/background/hungle.png" alt="" class="hungle_img" width="10%" style="float: left;" >
                         <div class="white_clr_inpt" id="demo6" >
                            <a href="#myModal6" class="submit_input_3" data-toggle="modal"> 
-                           <input type="text"  name ="topic6" placeholder="" class="input_brdr tp_6_inpt" id="k6">
+                           <input type="text"  name ="topic6" placeholder="" class="input_brdr tp_6_inpt" id="k6" required>
                            </a>
                            <!-- Modal HTML -->
                            <div id="myModal6" class="modal">

@@ -33,7 +33,7 @@
             <!-- <iframe width="530" height="305" class="video_size" src="https://www.youtube.com/embed/Gdr7VNNLJ_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
             
-    <iframe  id="video"  class="video_size  vd sample_video youtube-video video_inline_1"  src="https://www.youtube.com/embed/6HI-N1rYGz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+    <iframe  id="video"  class="video_size  vd sample_video youtube-video video_inline_1"  src="<?php echo $video->link ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
 
 
  <!--        <video id="someID" width="450" height="auto" controls class="video_size vd sample_video" height="280">

@@ -73,7 +73,7 @@
         </div>
       </div>
    
-      
+    
      
 
 
@@ -84,19 +84,19 @@
           <img src="<?php echo base_url() ?>frontassets/images/background/with_out_qustion.png" alt=""  class="game_bg">
           <div class="qustns_page">
             <div class="thre_quitns_top">
-              <input type="radio" id="male" onchange="en1()" name="answer"  value=" To know more about my child" class="first_int">
+              <input type="radio" id="male" onchange="en1()" name="answer"  value=" To know more about my child" class="first_int" required>
               <label for="male " class="child "> To know more about my child</label>
             </div>
             <div class="thre_quitns_top2">
-              <input type="radio" id="male" onchange="en1()" name="answer"  value="To learn about conscious parenting" class="first_int">
+              <input type="radio" id="male" onchange="en1()" name="answer"  value="To learn about conscious parenting" class="first_int" required>
               <label for="male " class="child "> To learn about conscious parenting </label>
             </div>
             <div class="thre_quitns_top3">
-              <input type="radio" id="male" onchange="en1()" name="answer" value=" To interact with other parents" class="first_int">
+              <input type="radio" id="male" onchange="en1()" name="answer" value=" To interact with other parents" class="first_int" required>
               <label for="male " class="child "> To interact with other parents</label>
             </div>
             <div class="thre_quitns_top4">
-              <input type="radio" id="male" onchange="en1()" name="answer" value="other" class="other_btn first_int">
+              <input type="radio" id="male" onchange="en1()" name="answer" value="other" class="other_btn first_int" required>
               <label for="male " class="child ">Other</label>
             </div>
             <div class="input_entry_thre">
