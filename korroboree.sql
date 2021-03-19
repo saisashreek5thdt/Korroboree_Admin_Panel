@@ -60,8 +60,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `user_type`, `project`, `episodes`, `topics`, `user_data`, `file`, `tracker`, `error`, `access`, `dates`) VALUES
-(1, 'admin@korroboree.com', 'passw123', 'kr', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, 'ad@5d', 'password', '5d', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 'admin@korroboree.com', 'journal1234', 'kr', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, 'info@5thdt.com', 'rajiv1234', '5d', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
