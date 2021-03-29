@@ -53,6 +53,7 @@ $route['default_controller'] = 'home';
 
 $route['selection'] = 'admin/dashboard/selection';
 $route['admindashboard'] = 'admin/admindashboard';
+
 /* Korroboree Team Journal Dashboard*/
 
 $route['account'] = 'k_team_journal/admin/account';
@@ -80,6 +81,17 @@ $route['topic_create'] = 'k_team_journal/topic/topic_create';
 $route['topic_edit'] = 'k_team_journal/topic/topic_edit';
 $route['topic_view'] = 'k_team_journal/topic/topic_view';
 $route['topic_tracker'] = 'k_team_journal/topic/topic_tracker';
+
+/* Korroboree Team Video Journal Dashboard*/
+$route['dashboard_v'] = 'k_team_video_journal/kteam/dashboard_v';
+
+$route['account_v'] = 'k_team_video_journal/admin/account_v';
+$route['settings_v'] = 'k_team_video_journal/admin/settings_v';
+
+/* Video Journal Pages*/
+$route['project_list_v'] = 'k_team_video_journal/kteam/project_list_v';
+$route['episode_list_v'] = 'k_team_video_journal/episode/episode_list_v';
+
 
 
 /* 5THDT Team Journal Dashboard*/
