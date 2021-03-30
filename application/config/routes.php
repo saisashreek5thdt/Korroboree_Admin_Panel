@@ -88,9 +88,22 @@ $route['dashboard_v'] = 'k_team_video_journal/kteam/dashboard_v';
 $route['account_v'] = 'k_team_video_journal/admin/account_v';
 $route['settings_v'] = 'k_team_video_journal/admin/settings_v';
 
+$route['kteam_file_manager_v'] = 'k_team_video_journal/kteam/kteam_file_manager_v';
+
 /* Video Journal Pages*/
 $route['project_list_v'] = 'k_team_video_journal/kteam/project_list_v';
 $route['episode_list_v'] = 'k_team_video_journal/episode/episode_list_v';
+
+$route['create_v'] = 'k_team_video_journal/episode/create_v';
+$route['view_v'] = 'k_team_video_journal/episode/view_v';
+$route['edit_v'] = 'k_team_video_journal/episode/edit_v';
+$route['tracker_v'] = 'k_team_video_journal/episode/tracker_v';
+
+/* User Data Capture Links*/
+
+$route['kteam_userdata_v'] = 'k_team_video_journal/kteam/kteam_userdata_v';
+$route['userdata_view_v'] = 'k_team_video_journal/kteam/userdata_view_v';
+$route['userdata_topic_view_v'] = 'k_team_video_journal/kteam/userdata_topic_view_v';
 
 
 

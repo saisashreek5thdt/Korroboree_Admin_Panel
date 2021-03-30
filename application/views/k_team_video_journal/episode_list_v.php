@@ -85,7 +85,7 @@
 										</ul>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Tracker</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker_v">Tracker</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -124,7 +124,7 @@
 										</ul>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Tracker</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker_v">Tracker</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -163,7 +163,7 @@
 										</ul>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Tracker</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker_v">Tracker</a>
 									</td>
 								  </tr>
 								  <tr>
@@ -202,7 +202,7 @@
 										</ul>
 									</td>
 									<td>
-										<a class="btn btn-danger" href="#">Tracker</a>
+										<a class="btn btn-danger" href="<?php base_url(); ?>tracker_v">Tracker</a>
 									</td>
 								  </tr>	
 								</tbody>

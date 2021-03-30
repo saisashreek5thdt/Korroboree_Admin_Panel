@@ -25,6 +25,8 @@
       <script src="<?php echo base_url(); ?>adminassets/js/config.js"></script>
       <!-- Plugins JS start-->
       <script src="<?php echo base_url(); ?>adminassets/js/sidebar-menu.js"></script>
+	  <script src="<?php echo base_url(); ?>adminassets/js/chart/google/google-chart-loader.js"></script>
+      <script src="<?php echo base_url(); ?>adminassets/js/chart/google/google-chart.js"></script>
       <script src="<?php echo base_url(); ?>adminassets/js/datatable/datatables/jquery.dataTables.min.js"></script>
       <script src="<?php echo base_url(); ?>adminassets/js/datatable/datatables/datatable.custom.js"></script>
       <script src="<?php echo base_url(); ?>adminassets/js/notify/bootstrap-notify.min.js"></script>

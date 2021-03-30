@@ -46,20 +46,20 @@
 						   </a>
                         </li>
                         <li class="sidebar-list">
-							<a class="sidebar-link sidebar-title link-nav" href="#">
+							<a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>kteam_userdata_v">
 								<i data-feather="archive"></i>
 								<span>User Data</span>
 							</a>
 						</li>
 						<li class="sidebar-list">
-							<a class="sidebar-link sidebar-title link-nav" href="#">
+							<a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>kteam_file_manager_v">
 								<i data-feather="hard-drive"></i>
 								<span>File Manager</span>
 							</a>
 						</li> 
                         <li class="sidebar-list">  
                            <label class="badge badge-info">Latest</label>
-							<a class="sidebar-link sidebar-title link-nav" href="#">
+							<a class="sidebar-link sidebar-title link-nav" href="<?php base_url(); ?>tracker_v">
 								<i data-feather="monitor"></i>
 								<span>Tracker</span>
 							</a>

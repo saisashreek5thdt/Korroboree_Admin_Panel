@@ -17,10 +17,10 @@ class Kteam extends CI_Controller {
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
-	public function kteam_file_manager()
+	public function kteam_file_manager_v()
 	{
 		$this->load->view('k_team_video_journal/header');
-		$this->load->view('k_team_video_journal/kteam_file');
+		$this->load->view('k_team_video_journal/kteam_file_v');
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
@@ -31,24 +31,24 @@ class Kteam extends CI_Controller {
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
-	public function kteam_userdata()
+	public function kteam_userdata_v()
 	{
 		$this->load->view('k_team_video_journal/header');
-		$this->load->view('k_team_video_journal/kteam_userdata');
+		$this->load->view('k_team_video_journal/kteam_userdata_v');
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
-	public function userdata_view()
+	public function userdata_view_v()
 	{
 		$this->load->view('k_team_video_journal/header');
-		$this->load->view('k_team_video_journal/userdata_view');
+		$this->load->view('k_team_video_journal/userdata_view_v');
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
-	public function userdata_topic_view()
+	public function userdata_topic_view_v()
 	{
 		$this->load->view('k_team_video_journal/header');
-		$this->load->view('k_team_video_journal/userdata_topic_view');
+		$this->load->view('k_team_video_journal/userdata_topic_view_v');
 		$this->load->view('k_team_video_journal/footer');
 	}
 	
